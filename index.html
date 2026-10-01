@@ -1,10 +1,11 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Connect With Jesus</title>
+    <title>Alive Season 5 | Connect With Jesus</title>
 
     <style>
         * {
@@ -16,6 +17,7 @@
         body {
             min-height: 100vh;
             font-family: Arial, Helvetica, sans-serif;
+
             background:
                 linear-gradient(
                     rgba(0, 0, 0, 0.45),
@@ -26,6 +28,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+
             color: white;
             text-align: center;
         }
@@ -36,24 +39,58 @@
             padding: 45px 25px;
         }
 
+        /* ALIVE SEASON */
+        .season {
+            font-size: clamp(18px, 4vw, 28px);
+            font-weight: 700;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .season-number {
+            font-size: clamp(30px, 7vw, 50px);
+            font-weight: 800;
+            letter-spacing: 3px;
+            margin-bottom: 12px;
+        }
+
+        /* THEME */
+        .theme {
+            font-size: clamp(17px, 4vw, 24px);
+            font-weight: 600;
+            letter-spacing: 1px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .theme::first-line {
+            font-weight: 700;
+        }
+
+        /* CROSS */
         .cross {
             font-size: 65px;
             margin-bottom: 20px;
         }
 
+        /* MAIN TITLE */
         h1 {
             font-size: clamp(42px, 9vw, 75px);
             letter-spacing: 4px;
             font-weight: 700;
             margin-bottom: 15px;
+            line-height: 1.05;
         }
 
+        /* SUBTITLE */
         .subtitle {
             font-size: clamp(18px, 4vw, 26px);
             line-height: 1.5;
             margin-bottom: 30px;
         }
 
+        /* VERSE */
         .verse {
             font-size: 18px;
             line-height: 1.6;
@@ -62,16 +99,22 @@
             max-width: 520px;
         }
 
+        /* BUTTON */
         .button {
             display: inline-block;
             margin-top: 15px;
             padding: 16px 38px;
+
             border-radius: 50px;
+
             background: white;
             color: #222;
+
             text-decoration: none;
+
             font-size: 18px;
             font-weight: bold;
+
             transition: 0.2s;
         }
 
@@ -79,11 +122,13 @@
             transform: scale(1.05);
         }
 
+        /* FOOTER */
         .footer {
             margin-top: 40px;
             font-size: 14px;
             opacity: 0.85;
         }
+
     </style>
 </head>
 
@@ -91,13 +136,44 @@
 
     <main class="container">
 
-        <div class="cross"></div>
+        <!-- ALIVE SEASON 5 -->
 
-        <h1>CONNECT<br>WITH JESUS</h1>
+        <div class="season">
+            ALIVE
+        </div>
+
+        <div class="season-number">
+            SEASON 5
+        </div>
+
+        <div class="theme">
+            Alive in Christ, Alive for Purpose
+        </div>
+
+
+        <!-- CROSS -->
+
+        <div class="cross">
+            ✝
+        </div>
+
+
+        <!-- MAIN TITLE -->
+
+        <h1>
+            CONNECT<br>
+            WITH JESUS
+        </h1>
+
+
+        <!-- WELCOME -->
 
         <p class="subtitle">
             You are welcome here.
         </p>
+
+
+        <!-- BIBLE VERSE -->
 
         <p class="verse">
             “Come to me, all you who are weary and burdened,
@@ -108,9 +184,15 @@
             — Matthew 11:28
         </p>
 
+
+        <!-- ENTER BUTTON -->
+
         <a class="button" href="#">
             ENTER
         </a>
+
+
+        <!-- FOOTER -->
 
         <div class="footer">
             A place to discover faith, hope and love.
@@ -120,3 +202,4 @@
 
 </body>
 </html>
+```
